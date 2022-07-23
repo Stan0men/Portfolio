@@ -2,12 +2,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Portfolio</title>
-  <link rel="stylesheet" href="styles/styles.css">
-  <script src="https://use.fontawesome.com/f019e3be40.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/e1b4e19bb3.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <nav>
-    <h2 id="logo"></h2>
+    <h2 id="logo">Oleksandr Nesterenko</h2>
     <ul class="navigation-items">
       <li class="navigation-item"><a href="#about-me">About Me</a></li>
       <li class="navigation-item"><a href="#projects">Projects</a></li>
@@ -21,13 +21,18 @@
       <div class="about-me-container">
         <div class="about-me-text-container">
           <h2>About Me</h2>
-        
+          <p>Front-end developer in Playtech since 2021</p>
+          <h2>Education</h2>
+          <p>National University of Food Technologies,</p>
+          <p>Specialist, energy faculty Kyiv, 2011.</p>
           <p>
             Fun fact! I've been programing for
             <span id="time-container">126144000</span> seconds!
           </p>
         </div>
+        <img src="/img/me.jpg" class="portrait"></img>
       </div>
+      
     </section>
 
     <section id="projects">
@@ -54,21 +59,16 @@
     <section id="skills">
       <h2>Skills</h2>
       <div id="skills-container">
-        <i class="fa fa-pencil" ></i> 
-        <i class="fa fa-css3-alt"></i>
-        <i class="fa fa-js"></i>
-        <i class="fa fa-figma"></i>
-        <i class="fa fa-git"></i>
-        <i class="fa fa-chrome"></i>
-        <i class="fa fa-terminal"></i>
-        <i class="fa fa-npm"></i>
-        <i class="fa fa-node"></i>
-        <i class="fa fa-github"></i>
+        <i class="fa-brands fa-css3-alt" aria-hidden="true" title="CSS3"></i>
+        <i class="fa-brands fa-html5" aria-hidden="true" title="HTML5"></i>
+        <i class="fa-brands fa-js" aria-hidden="true" title="JavaScript"></i>
+        <i class="fa-brands fa-figma" aria-hidden="true" title="Figma"></i>
+        <i class="fa-brands fa-git-alt" aria-hidden="true" title="Git"></i>
       </div>
     </section>
   </main>
 
-  <footer>Made with <i class="fa fa-heart"></i> in Ukraine</footer>
+  <footer>Made with <i class="fa fa-heart heart"></i> in Ukraine</footer>
   <script src="script.js"></script>
 </body>
 </html>
